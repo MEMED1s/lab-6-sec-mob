@@ -14,12 +14,12 @@ Ce dépôt présente un projet complet d'audit de sécurité statique réalisé 
 
 ## 🚀 Phases du Projet & Analyse Détaillée
 
-### 1. Initialisation et Traçabilité (Workflow Professionnel)
-Un audit sérieux commence par une traçabilité irréprochable. J'ai mis en place un environnement isolé et calculé l'empreinte numérique (**SHA-256**) de l'APK. Cela garantit que l'application analysée n'a pas été modifiée durant le processus.
+### 1. Préparation, Intégrité et Traçabilité
+Avant de lancer l'analyse, une phase de préparation est indispensable pour garantir la validité des résultats. J'ai généré un fichier de logs (`analyse_info.txt`) qui récapitule l'intégralité du workflow : du calcul du hash SHA-256 à l'obtention du score final.
 
-<img width="644" height="80" alt="pic`1" src="https://github.com/user-attachments/assets/5d80bfe3-4d09-4331-93cd-962a8392c9ad" />
+<img width="745" height="144" alt="pic14" src="https://github.com/user-attachments/assets/4204c592-c2ea-446d-9963-5109d1fdfd2a" />
 
-*Ici, on voit la création du dossier daté et le calcul du hash pour le fichier `analyse_info.txt`.*
+*Cette capture montre le suivi rigoureux de l'audit : identité de l'analyste, hash de l'APK, durée de l'analyse (4 minutes) et score final de 36/100.*
 
 ---
 
